@@ -1,1 +1,0 @@
-https://IrinaChem.github.io/rsschool-cv/cv
