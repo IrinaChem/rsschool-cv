@@ -1,16 +1,32 @@
 body {
-    background-image: url(../images/backround.jpg); 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
+    margin: auto;
+    max-width: 800px;
+}
+
+.wrapper {
+    background-image: url(../images/backround.jpg);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(229, 147, 229, 0.349);
+}
+
+.photo {
+    width: 200px;
+    border-radius: 50%;
 }
 
 .main {
     padding: 0 30px;
 }
 
-h1,
-h2 {
-    color:rgb(61, 10, 128)
+h1, h2 {
+    color: rgb(61, 10, 128)
 }
 
 .name {
@@ -20,6 +36,10 @@ h2 {
 .contacts {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    padding: 0 30px 30px;
+    padding: 0 30px 30px;
+    background-color: rgb(238, 180, 238);
 }
 
 .positive {
@@ -28,7 +48,6 @@ h2 {
 
 .positive-list {
     margin-left: 15%;
-
 }
 
 .skills {
@@ -39,9 +58,7 @@ h2 {
     margin-left: 20%;
 }
 
-.sample code {
-
-}
+.sample code {}
 
 .code {
     text-align: center;
@@ -51,12 +68,12 @@ h2 {
 
 .footer {
     display: flex;
-    background-color: rgb(245, 199, 222); 
     justify-content: space-around;
-    align-items: center; 
-    padding:10px; 
-
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(245, 199, 222);
 }
+
 .logo {
-   width:100px 
+    width: 100px
 }
