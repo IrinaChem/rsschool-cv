@@ -1,0 +1,79 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 800px;
+}
+
+.wrapper {
+    background-image: url(../images/backround.jpg);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(229, 147, 229, 0.349);
+}
+
+.photo {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.main {
+    padding: 0 30px;
+}
+
+h1, h2 {
+    color: rgb(61, 10, 128)
+}
+
+.name {
+    text-align: center;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px 30px;
+    padding: 0 30px 30px;
+    background-color: rgb(238, 180, 238);
+}
+
+.positive {
+    text-align: center;
+}
+
+.positive-list {
+    margin-left: 15%;
+}
+
+.skills {
+    text-align: center;
+}
+
+.html-css {
+    margin-left: 20%;
+}
+
+.sample code {}
+
+.code {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(245, 199, 222);
+}
+
+.logo {
+    width: 100px
+}
