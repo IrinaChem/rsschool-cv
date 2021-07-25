@@ -1,1 +1,1 @@
-https://IrinaChem.github.io/rsschool-cv/cv
+https://irinachem.github.io/rsschool-cv/
